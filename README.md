@@ -21,6 +21,13 @@ An AI-powered OSINT (Open Source Intelligence) dashboard built with Python and S
 - Google Gemini API (`google-genai`) for AI analysis
 - SQLite (scan history storage)
 
+## Tkinter Prototype
+
+A small standalone Tkinter prototype (`tkinter_lite.py`) is also included, covering the WHOIS and DNS modules. This was built to compare GUI approaches — Tkinter requires significantly more manual layout and threading code for the same functionality. Streamlit was chosen as the primary framework for the full dashboard based on this comparison. Run it independently with:
+```
+python tkinter_lite.py
+```
+
 ## Setup & Running
 
 1. Clone this repository.
